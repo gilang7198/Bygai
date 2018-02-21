@@ -1,7 +1,15 @@
 <div class="container" style="margin-top: 10%;">
-    <form class="form-horizontal" role="form" method="POST" action="/login">
+    <?php echo form_open('login/aksi_login'); ?>
+        <?php if($this->session->flashdata('info')): ?>
+            <div class="row">
+                <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                Maaf username/nim dan password salah
+                </div>
+            </div>
+        <?php endif; ?>
         <div class="row">
-            <center><img src="<?php echo base_url('assets/img/sdtech-logo.png')?>"></center>
+            <center><img src="<?php echo base_url('assets/img/sdtech-logo.png') ?>"></center>
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
@@ -16,7 +24,7 @@
                     <label class="sr-only" for="username">Username</label>
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                         <div class="input-group-addon" ><i class="fa fa-at"></i></div>
-                        <input type="text" name="email" class="form-control" id="email"
+                        <input type="text" name="username" class="form-control" id="username"
                         placeholder="Username" required autofocus>
                     </div>
                 </div>
@@ -56,5 +64,5 @@
                 <center><button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> Login</button></center>
             </div>
         </div>
-    </form>
+  <?php echo form_close(); ?>
 </div>
