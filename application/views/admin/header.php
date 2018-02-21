@@ -39,7 +39,7 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
       <!-- Logo -->
       <a href="index2.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><img src="<?php echo base_url('assets/img/company/logo_only.png') ?>" width="25px" height="25px"></span>
+        <span class="logo-mini" width="25px" height="25px"><img src="<?php echo base_url('assets/img/company/logo_only.png') ?></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>SD</b>Technologies</span>
       </a>
