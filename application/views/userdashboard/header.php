@@ -31,7 +31,7 @@ href="https://fonts.googleapis.com/css?family=Source Sans Pro:300,400,600,700,30
     <header class="main-header">
 
       <!-- Logo -->
-      <a href="<?php echo site_url('admin')?>" class="logo">
+      <a href="<?php echo site_url('userdashboard')?>" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><img width="25px" height="25px" src="<?php echo base_url('assets/img/company/logo_only.png')?>" ></span>
         <!-- logo for regular state and mobile devices -->

@@ -14,10 +14,18 @@
     <!-- Rounded switch -->
     <div class="container text-center" style="margin-top: 3%">
       <label class="switch">
-        <input type="checkbox">
+        <input type="checkbox" id="myonoffswitch">
         <span class="slider round"></span>
       </label>
     </div>
+
+    <div class="container text-center" style="margin-top: 3%">
+      <label class="switch">
+        <input type="checkbox" id="light2">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
 
     <!-- Info dari device -->
     <div class="container text-center" style="margin-top: 2%">

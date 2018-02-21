@@ -269,5 +269,20 @@
     });
   });
 </script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+
+    <script type="text/javascript">
+    var socket = io.connect('/');
+
+    $("#myonoffswitch").change(function(){
+      socket.emit("stateChanged", this.checked);
+    });
+    $("#light2").change(function(){
+      socket.emit("lighon2", this.checked);
+    });
+    </script>
   </body>
   </html>
