@@ -15,7 +15,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="lamputengah"><i class="fa fa-circle-o"></i> Lampu Tengah</a></li>
+            <li><a href="userdashboard/lamputengah"><i class="fa fa-circle-o"></i> Lampu Tengah</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Lampu Kamar Mandi</a></li></li>
           </ul>
         </li>
