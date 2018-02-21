@@ -12,32 +12,14 @@
       </div>
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="info-box">
-          <span class="info-box-icon bg-red"><i class="fa fa-minus-circle"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">MATIKAN SEMUA</span>
-            <span class="info-box-text">DEVICE</span>
-          </div>
+          <button class="btn btn-flat info-box-icon bg-red shutdown-all" style="padding: 0px;"><i class="fa fa-minus-circle"></i></button>
+          <div class="info-box-content"><span class="info-box-text">MATIKAN SEMUA</span><span class="info-box-text">DEVICE</span></div>
         </div>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-12">
-        <div class="info-box" data-toggle="modal" data-target="#energysaving">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-leaf"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">ENERGY SAVING MODE</span>
-          </div>
-          <div class="modal fade" id="energysaving">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <p>Mengaktifkan <i>Energy Saving Mode</i> akan membantu penghematan energi dengan mematikan beberapa device. Hanya <i>Lampu Tengah</i> dan beberapa peralatan saja yang dinyalakan.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-success">Aktifkan</button>
-                  <button type="button" class="btn btn-danger" data-dismiss="#">Tidak</button>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="info-box">
+          <button class="btn btn-flat info-box-icon bg-aqua saving-mode" style="padding: 0px;"><i class="fa fa-leaf"></i></button>
+          <div class="info-box-content"><span class="info-box-text">ENERGY SAVING MODE</span></div>
         </div>
       </div>
     </div>
