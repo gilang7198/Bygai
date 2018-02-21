@@ -31,11 +31,11 @@ href="https://fonts.googleapis.com/css?family=Source Sans Pro:300,400,600,700,30
     <header class="main-header">
 
       <!-- Logo -->
-      <a href="<?php echo site_url('')?>" class="logo">
+      <a href="<?php echo site_url('admin')?>" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><img width="25px" height="25px" src="<?php echo base_url('assets/img/company/logo_only.png')?>" ></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><img width="25px" height="25px" style="margin-right: 10px;" src="<?php echo base_url('assets/img/company/logo_only.png')?>">SDTechnologies</span>
+        <span class="logo-lg"><img width="25px" height="25px" style="margin-right: 10px;" src="<?php echo base_url('assets/img/company/logo_only.png')?>">Bygai</span>
       </a>
 
       <!-- Header Navbar: style can be found in header.less -->
@@ -246,7 +246,7 @@ href="https://fonts.googleapis.com/css?family=Source Sans Pro:300,400,600,700,30
     </li>
     <!-- User Account: seesion -->
     <li class="dropdown user user-menu">
-      <a href="#" class="dropdown-toggle" data-widget="collapse"><!-- data-toggle="dropdown" -->
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-widget="collapse">
         <img src="<?php echo base_url('assets/img/user2-160x160.jpg')?>" class="user-image" alt="User Image">
         <span class="hidden-xs"><?php echo $this->session->userdata("nama"); ?></span>
       </a>

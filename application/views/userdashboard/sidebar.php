@@ -15,7 +15,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Lampu Tengah</a></li>
+            <li><a href="lamputengah"><i class="fa fa-circle-o"></i> Lampu Tengah</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Lampu Kamar Mandi</a></li></li>
           </ul>
         </li>
@@ -27,8 +27,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> Ruang Tengah Lt. Bawah</a></li>
-            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Ruang Tengah Lt. Atas</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Ruang Tengah Lt. Bawah</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Ruang Tengah Lt. Atas</a></li>
           </ul>
         </li>
         </li>
