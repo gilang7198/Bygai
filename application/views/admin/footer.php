@@ -227,5 +227,34 @@
  <script>
   feather.replace()
 </script>
+<!-- Sweetalert -->
+<script src="<?php echo base_url('assets/dist/js/sweetalert.min.js')?>"></script>
+<!-- saving-mode -->
+<script>
+  $('button.saving-mode').click(function(e) {
+    swal("Saving Mode", "Success change to Saving Mode!", "success");
+  });
+</script>
+<!-- shutdown-all -->
+<script>
+  $('button.shutdown-all').click(function(e) {
+    swal({
+      title: "Are you sure?",
+      text: "You will turn off all the lights on!",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    })
+    .then((willDelete) => {
+      if (willDelete) {
+        swal("All the light off", {
+          icon: "success",
+        });
+      } else {
+        swal("Cancel!");
+      }
+    });
+  });
+</script>
 </body>
 </html>
