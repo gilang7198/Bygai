@@ -95,78 +95,78 @@
 			<div class="box box-info">
 				<div class="box-header with-border">
 					<h3 class="box-title">Catatan Pemakaian</h3>
-					</div>
 				</div>
-				<!-- /.box-header -->
-				<div class="box-body">
-					<div class="table-responsive">
-						<table class="table no-margin">
-							<thead>
-								<tr>
-									<th>Nomor Pin</th>
-									<th>Nama Perangkat</th>
-									<th>Action</th>
-									<th>Waktu</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>2</td>
-									<td>Lampu Tengah</td>
-									<td><span class="label label-success">On</span></td>
-									<td>07:30:15</td>
-								</tr>
-								<tr>
-									<td>5</td>
-									<td>AC Ruang Tengah</td>
-									<td><span class="label label-danger">Off</span></td>
-									<td>07:09:40</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Lampu Kamar Mandi</td>
-									<td><span class="label label-danger">Off</span></td>
-									<td>07:05:10</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Lampu Kamar Mandi</td>
-									<td><span class="label label-success">On</span></td>
-									<td>07:04:10</td>
-								</tr>
-								<tr>
-									<td>4</td>
-									<td>AC Ruang Tengah Lt. Atas</td>
-									<td><span class="label label-danger">Off</span></td>
-									<td>07:00:17</td>
-								</tr>
-								<tr>
-									<td>8</td>
-									<td>Kipas Angin Ruang Tengah</td>
-									<td><span class="label label-danger">Off</span></td>
-									<td>06:09:44</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Lampu Kamar Mandi</td>
-									<td><span class="label label-danger">Off</span></td>
-									<td>05:59:00</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<!-- /.table-responsive -->
-				</div>
-				<!-- /.box-body -->
-				<div class="box-footer clearfix">
-					<a href="javascript:void(0)" class="btn btn-sm btn-success btn-flat pull-right"><i class="fa fa-mail-reply"></i> Print</a>
-					<a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">Lihat Semua</a>
-				</div>
-				<!-- /.box-footer -->
 			</div>
-			<!-- /.box -->
+			<!-- /.box-header -->
+			<div class="box-body">
+				<div class="table-responsive">
+					<table class="table no-margin">
+						<thead>
+							<tr>
+								<th>Nomor Pin</th>
+								<th>Nama Perangkat</th>
+								<th>Action</th>
+								<th>Waktu</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>2</td>
+								<td>Lampu Tengah</td>
+								<td><span class="label label-success">On</span></td>
+								<td>07:30:15</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>AC Ruang Tengah</td>
+								<td><span class="label label-danger">Off</span></td>
+								<td>07:09:40</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Lampu Kamar Mandi</td>
+								<td><span class="label label-danger">Off</span></td>
+								<td>07:05:10</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Lampu Kamar Mandi</td>
+								<td><span class="label label-success">On</span></td>
+								<td>07:04:10</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>AC Ruang Tengah Lt. Atas</td>
+								<td><span class="label label-danger">Off</span></td>
+								<td>07:00:17</td>
+							</tr>
+							<tr>
+								<td>8</td>
+								<td>Kipas Angin Ruang Tengah</td>
+								<td><span class="label label-danger">Off</span></td>
+								<td>06:09:44</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Lampu Kamar Mandi</td>
+								<td><span class="label label-danger">Off</span></td>
+								<td>05:59:00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- /.table-responsive -->
+			</div>
+			<!-- /.box-body -->
+			<div class="box-footer clearfix">
+				<a href="javascript:void(0)" class="btn btn-sm btn-success btn-flat pull-right"><i class="fa fa-mail-reply"></i> Print</a>
+				<a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">Lihat Semua</a>
+			</div>
+			<!-- /.box-footer -->
 		</div>
-		<!-- /.col -->
+		<!-- /.box -->
 	</div>
+	<!-- /.col -->
+</div>
 </div>
 </div>
